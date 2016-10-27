@@ -1,0 +1,52 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto');
+
+/* Styles de base */
+body {
+  background: url('../assets/img/fond.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+/* carrousel */
+#slider {
+  padding-top: 3em;
+  max-width: 1199px;
+  margin: 0 auto;
+}
+
+/* Images */
+img {
+  width: 100%;
+}
+
+
+/* corps */
+.jumbotron {
+  background-color: rgba(245, 245, 245, .5);
+}
+
+.jumbotron h1 {
+  margin: 1.5em .5em;
+}
+
+.jumbotron img {
+  margin-bottom: 2em;
+}
+
+/* pied de page */
+footer {
+  padding: 2em;
+}
